@@ -32,6 +32,8 @@ A 2x6 right angle male header should be installed in the `BEAGLE` header and a 2
 
 This board can be ordered at [OSH Park](https://oshpark.com/shared_projects/sm0OcuML) and costs $2.40 for a set of 3.
 
+[![Order from OSH Park](https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png)](https://oshpark.com/shared_projects/sm0OcuML)
+
 ---
 
 ### [CRRYEK] BeagleWire to Debug PMOD
@@ -46,5 +48,5 @@ A 2x6 right angle male header should be installed in the `BEAGLE` header and a 2
 
 This board can be ordered at [OSH Park](https://oshpark.com/shared_projects/SsbzeQ1o) and costs $3.20 for a set of 3.
 
-
+[![Order from OSH Park](https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png)](https://oshpark.com/shared_projects/SsbzeQ1o)
 
