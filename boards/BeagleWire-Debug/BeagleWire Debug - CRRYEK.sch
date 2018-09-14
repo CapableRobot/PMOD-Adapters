@@ -230,33 +230,33 @@
 <symbol name="LETTER_L" urn="urn:adsk.eagle:symbol:13870/1" library_version="2" library_locally_modified="yes">
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="12" rows="17" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 </symbol>
-<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:2153868/1" library_version="2" library_locally_modified="yes">
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="71.12" y2="15.24" width="0.1016" layer="94"/>
+<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:2153868/1" locally_modified="yes" library_version="2" library_locally_modified="yes">
+<wire x1="0" y1="0" x2="73.66" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="73.66" y2="15.24" width="0.1016" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="73.66" y2="5.08" width="0.1016" layer="94"/>
 <wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
 <wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="15.24" x2="55.88" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="73.66" y1="5.08" x2="73.66" y2="0" width="0.1016" layer="94"/>
+<wire x1="73.66" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="73.66" y1="15.24" x2="55.88" y2="15.24" width="0.1016" layer="94"/>
 <wire x1="55.88" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="73.66" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
 <wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
 <wire x1="0" y1="15.24" x2="0" y2="25.4" width="0.1016" layer="94"/>
 <wire x1="101.6" y1="33.02" x2="0" y2="33.02" width="0.1016" layer="94"/>
 <wire x1="101.6" y1="33.02" x2="101.6" y2="25.4" width="0.1016" layer="94"/>
 <wire x1="0" y1="25.4" x2="55.88" y2="25.4" width="0.1016" layer="94"/>
-<wire x1="55.88" y1="25.4" x2="71.12" y2="25.4" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="25.4" x2="101.6" y2="25.4" width="0.1016" layer="94"/>
+<wire x1="55.88" y1="25.4" x2="73.66" y2="25.4" width="0.1016" layer="94"/>
+<wire x1="73.66" y1="25.4" x2="101.6" y2="25.4" width="0.1016" layer="94"/>
 <wire x1="0" y1="25.4" x2="0" y2="33.02" width="0.1016" layer="94"/>
 <wire x1="101.6" y1="25.4" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="25.4" x2="71.12" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="73.66" y1="25.4" x2="73.66" y2="15.24" width="0.1016" layer="94"/>
 <wire x1="55.88" y1="25.4" x2="55.88" y2="15.24" width="0.1016" layer="94"/>
 <text x="1.27" y="1.27" size="2.54" layer="94">Date</text>
 <text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="94">Sheet</text>
-<text x="83.82" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
+<text x="74.93" y="1.27" size="2.54" layer="94">Sheet</text>
+<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
 <text x="57.15" y="22.225" size="2.032" layer="94">Revision</text>
 <text x="1.27" y="22.225" size="2.032" layer="94">Name</text>
 <text x="1.27" y="17.145" size="2.54" layer="94">&gt;TITLE</text>
@@ -264,8 +264,8 @@
 <text x="1.27" y="27.94" size="3.175" layer="94">Capable Robot Components</text>
 <text x="1.27" y="12.065" size="2.032" layer="94">URL</text>
 <text x="1.27" y="6.985" size="2.54" layer="94">&gt;URL</text>
-<text x="72.39" y="22.225" size="2.032" layer="94">License</text>
-<text x="72.39" y="17.145" size="2.54" layer="94">&gt;LICENSE</text>
+<text x="74.93" y="22.225" size="2.032" layer="94">License</text>
+<text x="74.93" y="17.145" size="2.54" layer="94">&gt;LICENSE</text>
 </symbol>
 <symbol name="PMOD" library_version="2" library_locally_modified="yes">
 <pin name="IO1" x="-5.08" y="-2.54" length="middle"/>
@@ -314,7 +314,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LETTER_L" urn="urn:adsk.eagle:component:2154175/1" prefix="FRAME" uservalue="yes" library_version="2" library_locally_modified="yes">
+<deviceset name="LETTER_L" urn="urn:adsk.eagle:component:2154175/1" locally_modified="yes" prefix="FRAME" uservalue="yes" library_version="2" library_locally_modified="yes">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 LETTER landscape</description>
 <gates>
@@ -716,7 +716,7 @@ LETTER landscape</description>
 <attributes>
 <attribute name="LICENSE" value="CC BY-SA 4.0"/>
 <attribute name="REV" value="CRRYEK"/>
-<attribute name="TITLE" value="PMOD BeagleWire Debug Adapter"/>
+<attribute name="TITLE" value="BeagleWire to Debug PMOD"/>
 <attribute name="URL" value="https://github.com/CapableRobot/PMOD-Adapters"/>
 </attributes>
 <variantdefs>
