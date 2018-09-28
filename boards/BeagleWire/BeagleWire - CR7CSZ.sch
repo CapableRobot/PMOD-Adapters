@@ -422,7 +422,7 @@ LETTER landscape</description>
 </library>
 </libraries>
 <attributes>
-<attribute name="LICENSE" value="CC BY-SA 4.0"/>
+<attribute name="LICENSE" value="CERN OHL v1.2"/>
 <attribute name="REV" value="CR7CSZ"/>
 <attribute name="TITLE" value="BeagleWire to PMOD"/>
 <attribute name="URL" value="https://github.com/CapableRobot/PMOD-Adapters"/>
