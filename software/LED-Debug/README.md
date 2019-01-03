@@ -93,7 +93,7 @@ class LedPmodChaser(Module):
 
 This code starts at zero, every `maxperiod` ticks lights the next LED.  Once all leds are lit, every `maxperiod` ticks the LED which has been on the longest is turned off.
 
-| <iframe src="https://player.vimeo.com/video/309325726?autoplay=1&loop=1&autopause=0" width="400" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> |
+| [![](led-chaser-thumb.png?raw=true)](https://twitter.com/osterwood/status/1080574349827026951) |
 | :-------------: |
 | ICE Breaker running Chasing Demo  |
 
