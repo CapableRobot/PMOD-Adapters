@@ -6,6 +6,7 @@ Designed by [Capable Robot Components](http://capablerobot.com).  Follow us on [
 
 This repository contains schematics, layout, and bill of materials for various PMOD adapters and interfaces.  This currently includes:
 
+* 2019-01-30 : [CRBFH0 - LED Debug](boards/Debug)
 * 2019-01-30 : [CR6QEG - PMOD Debug](boards/Debug)
 * 2018-09-13 : [CR7CSZ - BeagleWire to PMOD](boards/BeagleWire) 
 * 2018-09-13 : [CRRYEK - BeagleWire to Debug PMOD](boards/BeagleWire-Debug)
@@ -16,6 +17,26 @@ Additional designed will be added to this repository over time.
 | --- |
 | Copyright Capable Robot Components 2018 <br><br>This documentation describes Open Hardware and is licensed under the [CERN OHL v1.2 or later](https://www.ohwr.org/licenses/cern-ohl/license_versions/v1.2). <br/><br/> You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2.  This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions |
 | More detailed information about the CERN License is available in the [license](license) folder and on the [CERN website](https://www.ohwr.org/projects/cernohl/wiki). |
+
+---
+
+### [CRBFH0] LED Debug
+
+| ![Top Render](images/CRBFH0_top.png?raw=true) | ![Bottom Render](images/CRBFH0_bottom.png?raw=true) |
+| :-------------: | :-------------: |
+| **Top Rendering**    | **Bottom Rendering** |
+
+This PCB allows a single PMOD to control 64 LEDs via a 4:16 address decoder and 4 mask control signals.  It was originally designed by H.Poetzl as part of the [Apertus project](https://www.apertus.org/pmod-debug).  Changes made to this version are:
+
+- Changed 0402 resistors to 0603 packages.
+- Changed the N channel MOSFETs from SC75 to SOT23 packages. 
+- PCB layout changes to accommodate the larger components.
+
+No schematic changes were made, meaning the PMOD interface is identical.
+
+This board can be ordered at [OSH Park](https://oshpark.com/shared_projects/n7GHOesv) and costs $6.75 for a set of 3.
+
+[![Order from OSH Park](https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png)](https://oshpark.com/shared_projects/n7GHOesv)
 
 ---
 
