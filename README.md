@@ -6,7 +6,7 @@ Designed by [Capable Robot Components](http://capablerobot.com).  Follow us on [
 
 This repository contains schematics, layout, and bill of materials for various PMOD adapters and interfaces.  This currently includes:
 
-* 2019-01-30 : [CRBFH0 - LED Debug](boards/Debug)
+* 2019-01-30 : [CRBFH0 - LED Debug](boards/LED-Debug)
 * 2019-01-30 : [CR6QEG - PMOD Debug](boards/Debug)
 * 2018-09-13 : [CR7CSZ - BeagleWire to PMOD](boards/BeagleWire) 
 * 2018-09-13 : [CRRYEK - BeagleWire to Debug PMOD](boards/BeagleWire-Debug)
