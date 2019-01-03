@@ -8,6 +8,8 @@ The `led-pmod.py` file here is a small driver for the LED Debug PMOD board.
 
 This PCB allows a single PMOD to control 64 LEDs via a 4:16 address decoder and 4 mask control signals.  It was originally designed by H.Poetzl as part of the [Apertus project](https://www.apertus.org/pmod-debug) and they provide example [VHDL code](https://github.com/apertus-open-source-cinema/alpha-software/blob/master/axi3_hdmi/pmod_debug.vhd) showing how to address the LEDs.
 
+Source files for this LED Debug PCB are available in this repository, see [https://github.com/CapableRobot/PMOD-Adapters](https://github.com/CapableRobot/PMOD-Adapters).
+
 The python-based Migen code to address the LEDs is very simple
 
 ```python
@@ -48,7 +50,7 @@ class LedPmod(Module):
 
 This shows a few unique features to Migen (in comparison to Verilog or VHDL):
 
-- The appropriate pins are requested from the passed-in platform object.
+- The appropriate pins are requested from the passed-in platform object, instead of explicitly passed into the module.
 - Signals are automatically initialized to 0, so no reset logic or signal is needed.
 - Generated logic is easy to change at build time.  Here, the clock divider changes when the package is simulated.
 
