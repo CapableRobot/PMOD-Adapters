@@ -16,14 +16,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -154,9 +154,9 @@
 <wire x1="19.03" y1="0" x2="20.3" y2="1.27" width="0" layer="20" curve="90"/>
 <wire x1="20.3" y1="1.27" x2="20.3" y2="19.05" width="0" layer="20"/>
 <wire x1="20.3" y1="19.05" x2="19.03" y2="20.32" width="0" layer="20" curve="90"/>
-<text x="2.794" y="18.288" size="1.524" layer="21">Capable Robot</text>
+<text x="2.794" y="18.288" size="1.524" layer="21" font="vector" ratio="15">Capable Robot</text>
 <text x="14.986" y="18.034" size="1.524" layer="22" font="vector" ratio="15" rot="MR0">[CR6QEG]</text>
-<text x="18.796" y="0.762" size="1.524" layer="22" font="vector" ratio="10" rot="MR0">capablerobot.com</text>
+<text x="18.796" y="0.762" size="1.524" layer="22" font="vector" ratio="15" rot="MR0">capablerobot.com</text>
 <text x="7.366" y="17.272" size="1.27" layer="21" font="vector" ratio="15" rot="R180">1</text>
 <text x="7.366" y="14.732" size="1.27" layer="21" font="vector" ratio="15" rot="R180">2</text>
 <text x="7.366" y="12.192" size="1.27" layer="21" font="vector" ratio="15" rot="R180">3</text>
@@ -528,7 +528,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </autorouter>
 <elements>
 <element name="PMOD" library="CapableRobot" library_urn="urn:adsk.eagle:library:2153859" package="HDRRAR12W64P254_2X6_1524X736X556B" package3d_urn="urn:adsk.eagle:package:5247313/2" value="PMOD-HOST" x="15.24" y="3.81" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.018" y="2.3225" size="1.27" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="17.018" y="2.3225" size="1.27" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="27.295" y="3.81" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="JP1" library="adafruit" package="1X06" value="" x="8.89" y="10.16" smashed="yes" rot="R270">
@@ -538,7 +538,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="8.255" y="17.78" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="FPGA" library="CapableRobot" library_urn="urn:adsk.eagle:library:2153859" package="HDRRA12W64P254_2X6_1524X254X556B" package3d_urn="urn:adsk.eagle:package:5247297/2" value="PMOD-PERIPH" x="5.08" y="16.51" smashed="yes" rot="R270">
-<attribute name="NAME" x="4.064" y="2.3225" size="1.27" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="4.064" y="2.3225" size="1.27" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="-8.055" y="16.51" size="1.27" layer="27" rot="R270" align="top-center"/>
 </element>
 </elements>
